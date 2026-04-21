@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>AInvest — AI Market Decision Engine</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <!-- Open Graph (PREVIEW) -->
+  <!-- Open Graph Preview -->
   <meta property="og:title" content="AInvest — AI Market Decision Engine">
-  <meta property="og:description" content="AI-powered system analyzing signal strength, trend, and volatility to generate institutional-style market insights.">
+  <meta property="og:description" content="AI-powered system analyzing signal strength, trend, and volatility.">
   <meta property="og:image" content="ainvestpreview.png">
   <meta property="og:type" content="website">
 
-  <!-- Mobile -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AInvest</title>
 
   <style>
     body {
       margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       background: radial-gradient(circle at top, #0d1f3c, #0a1a2f);
       color: white;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -26,66 +26,70 @@
 
     .container {
       text-align: center;
+      max-width: 900px;
+      padding: 20px;
     }
 
     h1 {
       font-size: 34px;
-      margin-bottom: 6px;
+      margin-bottom: 8px;
       letter-spacing: 0.5px;
     }
 
     p {
-      opacity: 0.6;
-      margin-bottom: 24px;
+      opacity: 0.7;
+      margin-bottom: 30px;
       font-size: 14px;
     }
 
-    .button {
+    .image-link {
+      position: relative;
       display: inline-block;
-      padding: 10px 20px;
-      background: #1f6feb;
-      color: white;
-      border-radius: 8px;
       text-decoration: none;
-      font-weight: 500;
-      transition: all 0.2s ease;
     }
 
-    .button:hover {
-      background: #388bfd;
-      transform: translateY(-1px);
-    }
-
-    img {
-      width: 320px;
-      border-radius: 18px;
-      margin-top: 28px;
+    .image-link img {
+      width: 100%;
+      border-radius: 14px;
       box-shadow: 0 20px 40px rgba(0,0,0,0.4);
     }
 
-    .footer {
-      margin-top: 18px;
-      font-size: 12px;
-      opacity: 0.4;
+    .cta-overlay {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(8px);
+
+      padding: 10px 16px;
+      border-radius: 999px;
+
+      font-size: 14px;
+      font-weight: 500;
+      color: white;
+
+      border: 1px solid rgba(255,255,255,0.2);
+
+      transition: all 0.2s ease;
+    }
+
+    .image-link:hover .cta-overlay {
+      transform: translateY(-2px);
+      background: rgba(255, 255, 255, 0.2);
     }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>AInvest</h1>
-    <p>AI Market Decision Engine</p>
+    <h1>Instant AI insight on any stock</h1>
+    <p>No dashboards. No noise. Just signal.</p>
 
-    <!-- REAL LINK (your Render app) -->
-    <a href="https://ainvest-8zkq.onrender.com/" target="_blank" class="button">
-      Launch AInvest →
+    <a href="https://ainvest-8zkq.onrender.com/" class="image-link">
+      <img src="ainvestpreview.png" alt="AInvest Preview">
+      <div class="cta-overlay">Analyze a stock →</div>
     </a>
-
-    <img src="ainvestpreview.png" alt="AInvest Preview">
-
-    <div class="footer">
-      AI-Powered Market Decisions
-    </div>
   </div>
 </body>
 </html>

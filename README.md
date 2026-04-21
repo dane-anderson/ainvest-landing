@@ -1,92 +1,68 @@
-# AInvest — Landing Page
+# 📈 AInvest — Preview Landing Page
 
-Static preview layer for **AInvest**, an AI-powered market decision engine.
+This repository hosts the static landing page used to generate rich link previews for the AInvest project.
 
-This landing page is designed to provide a clean, shareable entry point for the product, with optimized link previews for messaging platforms like iMessage and LinkedIn.
-
----
-
-## 🔗 Live Preview
-
-👉 https://ainvest-landing.onrender.com/
+When shared via text, LinkedIn, or other platforms, this page ensures the project displays a clean, visual preview instead of a raw link.
 
 ---
 
-## 🧠 Overview
+## 📸 Preview
 
-AInvest is a system focused on generating **institutional-style market insights** using:
-
-- Signal strength  
-- Trend direction  
-- Volatility analysis  
-- AI-generated interpretation  
-
-This repository contains the **presentation layer** — not the core application.
+![AInvest Preview](ainvestpreview.png)
 
 ---
 
-## 🎯 Purpose
+## 🧠 Purpose
 
-Most apps fail at first impression.
+Modern apps are often first experienced through shared links.
 
-This landing page solves that by:
+This landing page is designed to:
 
-- Delivering a **high-quality preview card**
-- Creating a **frictionless entry point**
-- Making the product feel **immediate and real**
-
----
-
-## 🧱 Structure
-
-index.html         # Main landing page  
-ainvestpreview.png # Preview image (used for link previews)
+- Provide a visually appealing preview  
+- Communicate the core idea instantly  
+- Showcase AI-driven insights at a glance  
+- Improve how the project appears when shared  
 
 ---
 
-## ⚙️ Key Features
+## 🔗 Main Project
 
-- Open Graph meta tags for rich previews  
-- Minimal, centered layout  
-- Dark, institutional design aesthetic  
-- Fast-loading static page  
-- Hosted on Render  
+👉 Full application:  
+https://github.com/dane-anderson/ainvest  
 
----
+👉 Live app:  
+https://ainvest-8zkq.onrender.com/  
 
-## 🖼 Preview Behavior
-
-When shared, the page generates:
-
-- Custom preview image  
-- Title + description  
-- Click-through to landing page  
-
-From there:
-
-👉 Users can launch the AInvest application
+👉 Landing page:  
+https://ainvest-landing.onrender.com/  
 
 ---
 
-## 🚀 Related Project
+## ⚙️ How It Works
 
-Main application:
+- Static HTML page (`index.html`)  
+- Preview image (`ainvestpreview.png`)  
+- Metadata (Open Graph tags) for link previews  
 
-👉 https://ainvest-8zkq.onrender.com/
+Platforms like iMessage, LinkedIn, and Twitter use this metadata to render the preview.
 
 ---
 
-## 🧩 Future Improvements
+## 🚀 Why This Matters
 
-- Live data snapshot in preview  
-- Multi-asset previews  
-- Dynamic preview generation  
-- Persistent hosting for main app  
+Most student projects stop at functionality.
+
+This project goes one step further by:
+
+- controlling how it is presented externally  
+- improving first impressions  
+- making the project feel like a real product  
 
 ---
 
 ## 👤 Author
 
 Dane Anderson  
-University of Colorado Boulder  
-Focused on building AI-driven, data-centric systems and financial tooling.
+University of Colorado Boulder — Computer Science  
+
+Focused on AI systems, decision engines, and real-world applications

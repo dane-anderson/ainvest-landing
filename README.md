@@ -8,7 +8,7 @@ When shared via text, LinkedIn, or other platforms, this page ensures the projec
 
 ## 📸 Preview
 
-![AInvest Preview](ainvestpreview.png)
+![AInvest Preview](aipreview.png)
 
 ---
 

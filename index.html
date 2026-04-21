@@ -1,22 +1,21 @@
-
 <!DOCTYPE html>
 <html>
 <head>
   <title>AInvest — AI Market Decision Engine</title>
 
-  <!-- Open Graph (THIS powers previews) -->
+  <!-- Open Graph (PREVIEW) -->
   <meta property="og:title" content="AInvest — AI Market Decision Engine">
   <meta property="og:description" content="AI-powered system analyzing signal strength, trend, and volatility to generate institutional-style market insights.">
   <meta property="og:image" content="ainvestpreview.png">
   <meta property="og:type" content="website">
 
-  <!-- Makes mobile look clean -->
+  <!-- Mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
     body {
       margin: 0;
-      background: #0a1a2f;
+      background: radial-gradient(circle at top, #0d1f3c, #0a1a2f);
       color: white;
       font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       display: flex;
@@ -30,25 +29,44 @@
     }
 
     h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
+      font-size: 34px;
+      margin-bottom: 6px;
+      letter-spacing: 0.5px;
     }
 
     p {
-      opacity: 0.7;
-      margin-bottom: 20px;
+      opacity: 0.6;
+      margin-bottom: 24px;
+      font-size: 14px;
     }
 
-    a {
-      color: #4da3ff;
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #1f6feb;
+      color: white;
+      border-radius: 8px;
       text-decoration: none;
       font-weight: 500;
+      transition: all 0.2s ease;
+    }
+
+    .button:hover {
+      background: #388bfd;
+      transform: translateY(-1px);
     }
 
     img {
       width: 320px;
-      border-radius: 16px;
-      margin-top: 20px;
+      border-radius: 18px;
+      margin-top: 28px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .footer {
+      margin-top: 18px;
+      font-size: 12px;
+      opacity: 0.4;
     }
   </style>
 </head>
@@ -58,11 +76,16 @@
     <h1>AInvest</h1>
     <p>AI Market Decision Engine</p>
 
-    <a href="https://ainvest-8zkq.onrender.com/" target="_blank">
-      Open App →
+    <!-- REAL LINK (your Render app) -->
+    <a href="https://ainvest-8zkq.onrender.com/" target="_blank" class="button">
+      Launch AInvest →
     </a>
 
-    <img src="preview.png" alt="AInvest Preview">
+    <img src="ainvestpreview.png" alt="AInvest Preview">
+
+    <div class="footer">
+      AI-Powered Market Decisions
+    </div>
   </div>
 </body>
 </html>
